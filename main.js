@@ -13,7 +13,9 @@ function draw(){
     image(img, 0, 0, 640, 420);
     fill("#FF2222");
     text("Dog", 45, 75);
+    tex("Cat", 395, 75);
     noFill();
-    stroke("FF2222");
+    stroke("#FF2222");
     rect(30, 60, 450, 350);
+
 }
