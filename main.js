@@ -19,10 +19,10 @@ function draw(){
     stroke("#FF2222");
     rect(30, 60, 450, 350);
 
-    fill("#FF2222");
+    fill("#22FF22");
     text("Cat", 320, 120);
     noFill();
-    stroke("#FF2222");
+    stroke("#22FF22");
     rect(300, 90, 270, 320);
 }
 
