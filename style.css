@@ -7,7 +7,9 @@ margin: 0px;
 background-color: bisque;
 border-color: bisque;
 }
-
+div{
+margin: 0px;
+}
 #status
 {
 font-size: 18px;
