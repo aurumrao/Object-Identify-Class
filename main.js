@@ -8,7 +8,7 @@ function preload(){
 
 function setup(){
     canvas = createCanvas(640, 420);
-    canvas.position(500, 500)
+    canvas.position(500, 600)
     objectDetector = ml5.objectDetector('cocossd', modelLoaded);
 }
 
