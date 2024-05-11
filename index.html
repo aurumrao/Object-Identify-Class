@@ -19,8 +19,12 @@
     <h1 class="btn btn-info heading">Object Detection</h1>
 
     <h3 id="status" class="btn btn-danger"></h3>
-    <button class="btn btn-warning" onclick="info()">Why didn't the model find everything?</button>
-    <h3 class="btn btn-warning" id="info"></h3>
+    <h3 id="object_count" class="btn btn-warning"></h3>
+    <button onclick="start()" class="btn btn-danger" id="start_model">Start</button>
+
+    <button class="btn btn-success" onclick="info()">Why didn't the model find everything?</button>
+    <br>
+    <h3 class="btn btn-success" id="info"></h3>
   </center>
 
   <script src="main.js"></script>
