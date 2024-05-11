@@ -53,5 +53,5 @@ function gotResult(error, results){
     objects = results;
 }
 function info(){
-    document.getElementById("info").innerHTML = "Good question! These models aren't 100% accurate. Most likely, the similar coloration confused the model. The database from which it pulled this info from might also have more pictures of cats & dogs than of bowls or cupboards."
+    document.getElementById("info").innerHTML = "Good question! These models aren't 100% accurate. Most likely, some similar coloration confused the model. The database from which it pulled this info might also have an imbalance of pictures."
 }
